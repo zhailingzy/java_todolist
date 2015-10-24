@@ -1,4 +1,4 @@
-package ToDoList;
+package toDoList;
 
 import javax.swing.JPanel;
 import javax.swing.JLabel;
@@ -15,7 +15,9 @@ import javax.swing.UIManager;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.DateFormatter;
-import ShareTools.MessageBox;
+
+import shareTools.MessageBox;
+
 import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.awt.event.ItemListener;

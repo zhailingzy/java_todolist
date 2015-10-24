@@ -1,4 +1,4 @@
-package ToDoList;
+package toDoList;
 
 import java.awt.Point;
 import java.nio.file.Files;
@@ -11,8 +11,9 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import javax.swing.BoxLayout;
 import javax.swing.JPanel;
-import ShareTools.SqlOperator;
-import ShareTools.SqlOperator.dbtype;
+
+import shareTools.SqlOperator;
+import shareTools.SqlOperator.dbtype;
 
 public class ToDoListContainer extends JPanel {
 	/**

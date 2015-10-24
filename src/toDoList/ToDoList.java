@@ -1,4 +1,4 @@
-package ToDoList;
+package toDoList;
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;
@@ -16,7 +16,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.ScrollPaneConstants;
-import ShareTools.IniCtrl;
+
+import shareTools.IniCtrl;
+
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -129,6 +131,7 @@ public class ToDoList extends JFrame {
 		add(scrollPane);
 		getContentPane().add(scrollPane);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		pack();
 		setVisible(true);
 		mycontainer.addWaitingCell();
 	}
